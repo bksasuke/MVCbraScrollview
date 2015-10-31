@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F157641BE350260057CD81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F157631BE350260057CD81 /* main.m */; };
+		26F157671BE350260057CD81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F157661BE350260057CD81 /* AppDelegate.m */; };
+		26F1576D1BE350260057CD81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F1576B1BE350260057CD81 /* Main.storyboard */; };
+		26F1576F1BE350260057CD81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F1576E1BE350260057CD81 /* Images.xcassets */; };
+		26F157721BE350260057CD81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26F157701BE350260057CD81 /* LaunchScreen.xib */; };
+		26F1577E1BE350260057CD81 /* VictoriaSecretTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F1577D1BE350260057CD81 /* VictoriaSecretTests.m */; };
+		26F1578A1BE360290057CD81 /* VSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F157891BE360290057CD81 /* VSModel.m */; };
+		26F1578D1BE360400057CD81 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F1578C1BE360400057CD81 /* DataManager.m */; };
+		26F1578F1BE360910057CD81 /* VictoriaSecret.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26F1578E1BE360910057CD81 /* VictoriaSecret.plist */; };
+		26F157A01BE3651E0057CD81 /* frontpage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F157911BE3651E0057CD81 /* frontpage.jpg */; };
+		26F157A11BE3651E0057CD81 /* huonglan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F157921BE3651E0057CD81 /* huonglan.jpg */; };
+		26F157A21BE3651E0057CD81 /* huonglan0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F157931BE3651E0057CD81 /* huonglan0.jpg */; };
+		26F157A31BE3651E0057CD81 /* huongnhi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F157941BE3651E0057CD81 /* huongnhi.jpg */; };
+		26F157A41BE3651E0057CD81 /* huongnhi0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F157951BE3651E0057CD81 /* huongnhi0.jpg */; };
+		26F157A51BE3651E0057CD81 /* maianh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F157961BE3651E0057CD81 /* maianh.jpg */; };
+		26F157A61BE3651E0057CD81 /* maianh0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F157971BE3651E0057CD81 /* maianh0.jpg */; };
+		26F157A71BE3651E0057CD81 /* maitrang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F157981BE3651E0057CD81 /* maitrang.jpg */; };
+		26F157A81BE3651E0057CD81 /* maitrang0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F157991BE3651E0057CD81 /* maitrang0.jpg */; };
+		26F157A91BE3651E0057CD81 /* mylinh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F1579A1BE3651E0057CD81 /* mylinh.jpg */; };
+		26F157AA1BE3651E0057CD81 /* mylinh0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F1579B1BE3651E0057CD81 /* mylinh0.jpg */; };
+		26F157AB1BE3651E0057CD81 /* phonglan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F1579C1BE3651E0057CD81 /* phonglan.jpg */; };
+		26F157AC1BE3651E0057CD81 /* phonglan0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F1579D1BE3651E0057CD81 /* phonglan0.jpg */; };
+		26F157AD1BE3651E0057CD81 /* phuongnhung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F1579E1BE3651E0057CD81 /* phuongnhung.jpg */; };
+		26F157AE1BE3651E0057CD81 /* phuongnhung0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 26F1579F1BE3651E0057CD81 /* phuongnhung0.jpg */; };
+		26F157B21BE374330057CD81 /* BraVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 26F157B11BE374330057CD81 /* BraVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26F157781BE350260057CD81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26F157561BE350260057CD81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26F1575D1BE350260057CD81;
+			remoteInfo = VictoriaSecret;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26F1575E1BE350260057CD81 /* VictoriaSecret.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VictoriaSecret.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F157621BE350260057CD81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F157631BE350260057CD81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26F157651BE350260057CD81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26F157661BE350260057CD81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26F1576C1BE350260057CD81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26F1576E1BE350260057CD81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		26F157711BE350260057CD81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		26F157771BE350260057CD81 /* VictoriaSecretTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VictoriaSecretTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F1577C1BE350260057CD81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F1577D1BE350260057CD81 /* VictoriaSecretTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VictoriaSecretTests.m; sourceTree = "<group>"; };
+		26F157881BE360290057CD81 /* VSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSModel.h; sourceTree = "<group>"; };
+		26F157891BE360290057CD81 /* VSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSModel.m; sourceTree = "<group>"; };
+		26F1578B1BE360400057CD81 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		26F1578C1BE360400057CD81 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		26F1578E1BE360910057CD81 /* VictoriaSecret.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VictoriaSecret.plist; sourceTree = "<group>"; };
+		26F157911BE3651E0057CD81 /* frontpage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frontpage.jpg; sourceTree = "<group>"; };
+		26F157921BE3651E0057CD81 /* huonglan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huonglan.jpg; sourceTree = "<group>"; };
+		26F157931BE3651E0057CD81 /* huonglan0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huonglan0.jpg; sourceTree = "<group>"; };
+		26F157941BE3651E0057CD81 /* huongnhi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huongnhi.jpg; sourceTree = "<group>"; };
+		26F157951BE3651E0057CD81 /* huongnhi0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huongnhi0.jpg; sourceTree = "<group>"; };
+		26F157961BE3651E0057CD81 /* maianh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maianh.jpg; sourceTree = "<group>"; };
+		26F157971BE3651E0057CD81 /* maianh0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maianh0.jpg; sourceTree = "<group>"; };
+		26F157981BE3651E0057CD81 /* maitrang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maitrang.jpg; sourceTree = "<group>"; };
+		26F157991BE3651E0057CD81 /* maitrang0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maitrang0.jpg; sourceTree = "<group>"; };
+		26F1579A1BE3651E0057CD81 /* mylinh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mylinh.jpg; sourceTree = "<group>"; };
+		26F1579B1BE3651E0057CD81 /* mylinh0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mylinh0.jpg; sourceTree = "<group>"; };
+		26F1579C1BE3651E0057CD81 /* phonglan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phonglan.jpg; sourceTree = "<group>"; };
+		26F1579D1BE3651E0057CD81 /* phonglan0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phonglan0.jpg; sourceTree = "<group>"; };
+		26F1579E1BE3651E0057CD81 /* phuongnhung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phuongnhung.jpg; sourceTree = "<group>"; };
+		26F1579F1BE3651E0057CD81 /* phuongnhung0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = phuongnhung0.jpg; sourceTree = "<group>"; };
+		26F157B01BE374330057CD81 /* BraVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraVC.h; sourceTree = "<group>"; };
+		26F157B11BE374330057CD81 /* BraVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26F1575B1BE350260057CD81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F157741BE350260057CD81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26F157551BE350260057CD81 = {
+			isa = PBXGroup;
+			children = (
+				26F157601BE350260057CD81 /* VictoriaSecret */,
+				26F1577A1BE350260057CD81 /* VictoriaSecretTests */,
+				26F1575F1BE350260057CD81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26F1575F1BE350260057CD81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F1575E1BE350260057CD81 /* VictoriaSecret.app */,
+				26F157771BE350260057CD81 /* VictoriaSecretTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26F157601BE350260057CD81 /* VictoriaSecret */ = {
+			isa = PBXGroup;
+			children = (
+				26F157AF1BE370620057CD81 /* ViewControllers */,
+				26F157651BE350260057CD81 /* AppDelegate.h */,
+				26F157661BE350260057CD81 /* AppDelegate.m */,
+				26F157901BE364920057CD81 /* photo */,
+				26F157871BE35FEE0057CD81 /* Model */,
+				26F1576E1BE350260057CD81 /* Images.xcassets */,
+				26F157701BE350260057CD81 /* LaunchScreen.xib */,
+				26F157611BE350260057CD81 /* Supporting Files */,
+			);
+			path = VictoriaSecret;
+			sourceTree = "<group>";
+		};
+		26F157611BE350260057CD81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26F157621BE350260057CD81 /* Info.plist */,
+				26F157631BE350260057CD81 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26F1577A1BE350260057CD81 /* VictoriaSecretTests */ = {
+			isa = PBXGroup;
+			children = (
+				26F1577D1BE350260057CD81 /* VictoriaSecretTests.m */,
+				26F1577B1BE350260057CD81 /* Supporting Files */,
+			);
+			path = VictoriaSecretTests;
+			sourceTree = "<group>";
+		};
+		26F1577B1BE350260057CD81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26F1577C1BE350260057CD81 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26F157871BE35FEE0057CD81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26F157881BE360290057CD81 /* VSModel.h */,
+				26F157891BE360290057CD81 /* VSModel.m */,
+				26F1578B1BE360400057CD81 /* DataManager.h */,
+				26F1578C1BE360400057CD81 /* DataManager.m */,
+				26F1578E1BE360910057CD81 /* VictoriaSecret.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		26F157901BE364920057CD81 /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				26F157911BE3651E0057CD81 /* frontpage.jpg */,
+				26F157921BE3651E0057CD81 /* huonglan.jpg */,
+				26F157931BE3651E0057CD81 /* huonglan0.jpg */,
+				26F157941BE3651E0057CD81 /* huongnhi.jpg */,
+				26F157951BE3651E0057CD81 /* huongnhi0.jpg */,
+				26F157961BE3651E0057CD81 /* maianh.jpg */,
+				26F157971BE3651E0057CD81 /* maianh0.jpg */,
+				26F157981BE3651E0057CD81 /* maitrang.jpg */,
+				26F157991BE3651E0057CD81 /* maitrang0.jpg */,
+				26F1579A1BE3651E0057CD81 /* mylinh.jpg */,
+				26F1579B1BE3651E0057CD81 /* mylinh0.jpg */,
+				26F1579C1BE3651E0057CD81 /* phonglan.jpg */,
+				26F1579D1BE3651E0057CD81 /* phonglan0.jpg */,
+				26F1579E1BE3651E0057CD81 /* phuongnhung.jpg */,
+				26F1579F1BE3651E0057CD81 /* phuongnhung0.jpg */,
+			);
+			name = photo;
+			sourceTree = "<group>";
+		};
+		26F157AF1BE370620057CD81 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				26F1576B1BE350260057CD81 /* Main.storyboard */,
+				26F157B01BE374330057CD81 /* BraVC.h */,
+				26F157B11BE374330057CD81 /* BraVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26F1575D1BE350260057CD81 /* VictoriaSecret */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F157811BE350260057CD81 /* Build configuration list for PBXNativeTarget "VictoriaSecret" */;
+			buildPhases = (
+				26F1575A1BE350260057CD81 /* Sources */,
+				26F1575B1BE350260057CD81 /* Frameworks */,
+				26F1575C1BE350260057CD81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VictoriaSecret;
+			productName = VictoriaSecret;
+			productReference = 26F1575E1BE350260057CD81 /* VictoriaSecret.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26F157761BE350260057CD81 /* VictoriaSecretTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26F157841BE350260057CD81 /* Build configuration list for PBXNativeTarget "VictoriaSecretTests" */;
+			buildPhases = (
+				26F157731BE350260057CD81 /* Sources */,
+				26F157741BE350260057CD81 /* Frameworks */,
+				26F157751BE350260057CD81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F157791BE350260057CD81 /* PBXTargetDependency */,
+			);
+			name = VictoriaSecretTests;
+			productName = VictoriaSecretTests;
+			productReference = 26F157771BE350260057CD81 /* VictoriaSecretTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26F157561BE350260057CD81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = TuanTa;
+				TargetAttributes = {
+					26F1575D1BE350260057CD81 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					26F157761BE350260057CD81 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 26F1575D1BE350260057CD81;
+					};
+				};
+			};
+			buildConfigurationList = 26F157591BE350260057CD81 /* Build configuration list for PBXProject "VictoriaSecret" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26F157551BE350260057CD81;
+			productRefGroup = 26F1575F1BE350260057CD81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26F1575D1BE350260057CD81 /* VictoriaSecret */,
+				26F157761BE350260057CD81 /* VictoriaSecretTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26F1575C1BE350260057CD81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F157A41BE3651E0057CD81 /* huongnhi0.jpg in Resources */,
+				26F157A81BE3651E0057CD81 /* maitrang0.jpg in Resources */,
+				26F157AB1BE3651E0057CD81 /* phonglan.jpg in Resources */,
+				26F157A51BE3651E0057CD81 /* maianh.jpg in Resources */,
+				26F157A01BE3651E0057CD81 /* frontpage.jpg in Resources */,
+				26F157AA1BE3651E0057CD81 /* mylinh0.jpg in Resources */,
+				26F157AC1BE3651E0057CD81 /* phonglan0.jpg in Resources */,
+				26F1576D1BE350260057CD81 /* Main.storyboard in Resources */,
+				26F157A21BE3651E0057CD81 /* huonglan0.jpg in Resources */,
+				26F157A31BE3651E0057CD81 /* huongnhi.jpg in Resources */,
+				26F1578F1BE360910057CD81 /* VictoriaSecret.plist in Resources */,
+				26F157A91BE3651E0057CD81 /* mylinh.jpg in Resources */,
+				26F157A11BE3651E0057CD81 /* huonglan.jpg in Resources */,
+				26F157AE1BE3651E0057CD81 /* phuongnhung0.jpg in Resources */,
+				26F157721BE350260057CD81 /* LaunchScreen.xib in Resources */,
+				26F157A61BE3651E0057CD81 /* maianh0.jpg in Resources */,
+				26F157AD1BE3651E0057CD81 /* phuongnhung.jpg in Resources */,
+				26F157A71BE3651E0057CD81 /* maitrang.jpg in Resources */,
+				26F1576F1BE350260057CD81 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F157751BE350260057CD81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26F1575A1BE350260057CD81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F1578D1BE360400057CD81 /* DataManager.m in Sources */,
+				26F157671BE350260057CD81 /* AppDelegate.m in Sources */,
+				26F1578A1BE360290057CD81 /* VSModel.m in Sources */,
+				26F157641BE350260057CD81 /* main.m in Sources */,
+				26F157B21BE374330057CD81 /* BraVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F157731BE350260057CD81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F1577E1BE350260057CD81 /* VictoriaSecretTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26F157791BE350260057CD81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26F1575D1BE350260057CD81 /* VictoriaSecret */;
+			targetProxy = 26F157781BE350260057CD81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26F1576B1BE350260057CD81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F1576C1BE350260057CD81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26F157701BE350260057CD81 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26F157711BE350260057CD81 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26F1577F1BE350260057CD81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26F157801BE350260057CD81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F157821BE350260057CD81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VictoriaSecret/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26F157831BE350260057CD81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VictoriaSecret/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26F157851BE350260057CD81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VictoriaSecretTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VictoriaSecret.app/VictoriaSecret";
+			};
+			name = Debug;
+		};
+		26F157861BE350260057CD81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VictoriaSecretTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VictoriaSecret.app/VictoriaSecret";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26F157591BE350260057CD81 /* Build configuration list for PBXProject "VictoriaSecret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F1577F1BE350260057CD81 /* Debug */,
+				26F157801BE350260057CD81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F157811BE350260057CD81 /* Build configuration list for PBXNativeTarget "VictoriaSecret" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F157821BE350260057CD81 /* Debug */,
+				26F157831BE350260057CD81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26F157841BE350260057CD81 /* Build configuration list for PBXNativeTarget "VictoriaSecretTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26F157851BE350260057CD81 /* Debug */,
+				26F157861BE350260057CD81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26F157561BE350260057CD81 /* Project object */;
+}

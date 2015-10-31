@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="xe5-XP-uTH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bikini-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bikini" image="bikini" id="uoI-TI-suP"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="627" y="728"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="6xp-hN-5Vd">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="xe5-XP-uTH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="e3m-UR-ZZj">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vkx-cV-YzT" kind="relationship" relationship="viewControllers" id="VIU-pf-k7W"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="srj-22-kPi"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dL7-sf-P1F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-80" y="450"/>
+        </scene>
+        <!--Bra-->
+        <scene sceneID="rxg-ur-ip3">
+            <objects>
+                <viewController id="vkx-cV-YzT" customClass="BraVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2r1-IH-wDv"/>
+                        <viewControllerLayoutGuide type="bottom" id="kpk-G2-0os"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="Gca-lI-HEf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="10" translatesAutoresizingMaskIntoConstraints="NO" id="Lou-DQ-bfR">
+                                <rect key="frame" x="-4" y="482" width="328" height="37"/>
+                                <connections>
+                                    <action selector="onPageControlChange:" destination="vkx-cV-YzT" eventType="valueChanged" id="UfB-1T-Wjk"/>
+                                </connections>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NV8-id-kjD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="472"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vkx-cV-YzT" id="G65-AG-O8J"/>
+                                </connections>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YIM-6E-LWL">
+                                <rect key="frame" x="4" y="402" width="312" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="TpR-qm-yFz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lou-DQ-bfR" firstAttribute="top" secondItem="YIM-6E-LWL" secondAttribute="bottom" constant="40" id="7Ju-5z-jbE"/>
+                            <constraint firstItem="YIM-6E-LWL" firstAttribute="leading" secondItem="Gca-lI-HEf" secondAttribute="leadingMargin" constant="-12" id="Emi-XD-zEI"/>
+                            <constraint firstItem="NV8-id-kjD" firstAttribute="top" secondItem="Gca-lI-HEf" secondAttribute="top" id="JcU-e4-hw3"/>
+                            <constraint firstItem="Lou-DQ-bfR" firstAttribute="top" secondItem="NV8-id-kjD" secondAttribute="bottom" constant="10" id="K0H-mR-cfH"/>
+                            <constraint firstItem="NV8-id-kjD" firstAttribute="centerX" secondItem="Lou-DQ-bfR" secondAttribute="centerX" id="KAh-Bu-MTS"/>
+                            <constraint firstItem="NV8-id-kjD" firstAttribute="centerX" secondItem="Lou-DQ-bfR" secondAttribute="centerX" id="Tg8-qr-Isf"/>
+                            <constraint firstItem="kpk-G2-0os" firstAttribute="top" secondItem="Lou-DQ-bfR" secondAttribute="bottom" id="XBh-T9-Kzf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lou-DQ-bfR" secondAttribute="trailing" constant="-20" id="gpG-4J-DKD"/>
+                            <constraint firstItem="NV8-id-kjD" firstAttribute="leading" secondItem="Gca-lI-HEf" secondAttribute="leading" id="jpq-2E-biD"/>
+                            <constraint firstItem="NV8-id-kjD" firstAttribute="leading" secondItem="Gca-lI-HEf" secondAttribute="leadingMargin" constant="-20" id="oTy-Ej-Zsf"/>
+                            <constraint firstItem="Lou-DQ-bfR" firstAttribute="leading" secondItem="Gca-lI-HEf" secondAttribute="leadingMargin" constant="-20" id="rwH-uc-YgJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YIM-6E-LWL" secondAttribute="trailing" constant="-12" id="wKS-yW-vPC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NV8-id-kjD" secondAttribute="trailing" constant="-16" id="yIz-9b-Xlt"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="oTy-Ej-Zsf"/>
+                                <exclude reference="yIz-9b-Xlt"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bra" image="bra" badgeValue="3" selectedImage="bra" id="Fa2-8y-YjL"/>
+                    <connections>
+                        <outlet property="modelLabel" destination="YIM-6E-LWL" id="toI-SZ-NqW"/>
+                        <outlet property="pageControl" destination="Lou-DQ-bfR" id="hpb-ws-FQM"/>
+                        <outlet property="scrollView" destination="NV8-id-kjD" id="r08-0i-g9H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nlK-lM-qqK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="627" y="117"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bikini" width="25" height="25"/>
+        <image name="bra" width="25" height="25"/>
+    </resources>
+</document>
